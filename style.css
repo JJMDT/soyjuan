@@ -488,7 +488,7 @@ background-color: white;
         font-size: 30px;
       }
 .titulo-habilidades h2{
-padding:20px;}
+padding:20px !importante;}
 
      .seccion-habilidades p{
         font-size: 15px;
