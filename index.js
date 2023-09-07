@@ -5,7 +5,7 @@ function cargarAnimaciones() {
 
     window.sr = ScrollReveal();
     sr.reveal('.sobre-mi', {
-        duration: 2000,
+        duration: 1500,
         origin: 'top',
         distance: '-50px'
     });
@@ -38,7 +38,7 @@ function cargarAnimaciones() {
       sr.reveal('.b-example-divider ', {
         duration: 1000,
         origin: 'bottom',
-        distance: '100px'
+        distance: '50px'
       });
 
 
@@ -49,7 +49,7 @@ function cargarAnimaciones() {
       ScrollReveal().reveal('.nav-links', { delay: 2000 });
       ScrollReveal().reveal('.subtitulo', { delay: 1000 });
       ScrollReveal().reveal('.logo', { delay: 2000 });
-      ScrollReveal().reveal('.texto-footer', { delay: 2000 });
+      ScrollReveal().reveal('.texto-footer', { delay: 1500 });
 
     }
 

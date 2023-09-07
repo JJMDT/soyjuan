@@ -88,6 +88,9 @@
   @media (min-width: 992px) {
     .rounded-lg-3 { border-radius: .3rem; }
   }
+#logoInicio{
+  text-decoration: none;
+}
 
   #imgpefil {
     width: 200px;
@@ -240,7 +243,7 @@ background-color: white;
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
   font-weight: 500;
-  padding-top: 100px;
+  
   padding-bottom: 20px;
 }
 .contacto{ 
@@ -486,10 +489,9 @@ background-color: white;
       }
       .seccion-habilidades h2{
         font-size: 30px;
+        padding: 0 20px;
       }
-.titulo-habilidades h2{
-padding:20px !important;}
-
+     
      .seccion-habilidades p{
         font-size: 15px;
       }
@@ -516,6 +518,7 @@ padding:20px !important;}
       .contacto h2{
         color: rgb(0, 0, 0);
         font-size: 30px;
+        padding: 0;
       }
       
 }
