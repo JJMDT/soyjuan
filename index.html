@@ -1,54 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="libreria/lib.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="libreria/lib.js"></script>
 
-    <title>Juan La Terra</title>
+  <title>Juan La Terra</title>
 </head>
-<body >
-<div id="inicio"></div>
 
+<body>
+  <div id="inicio"></div>
+  <!--
   <header class="header scroll-header " >
-    <a href="#inicio" id="logoInicio">  
+    <a href="#inicio" id="logoInicio">
       <h1 class="logo">J</h1>
     </a>
-    <p class="subtitulo">Desarrollador 
+    <p class="subtitulo">Desarrollador
       <br>Full Stack  <br>
-    
+
     <nav class="nav-links">
       <a href="#enlace1">Sobre mi</a>
       <a href="#enlace2">Portfolio</a>
       <a href="#enlace3">Contacto</a>
     </nav>
-  
+
+  </header> -->
+  <header class="scroll-header">
+    <nav class="navbar navbar-expand-md bg-body-tertiary " data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logoInicio" href="#inicio">
+          <h1 class="logo">J</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <p id="subtitulo">Desarrollador
+          <br>Full Stack <br>
+        </p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex justify-content-between">
+            <li class="nav-item">
+              <a id="linknav" class="nav-link " aria-current="page" href="#enlace1">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a id="linknav" class="nav-link" href="#enlace2">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a id="linknav" class="nav-link" href="#enlace3">Contacto</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--
+    <div class="container-fluid">
+      <a class="navbar-brand" id="logoInicio" href="#inicio"><h1 class="logo">J</h1></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse color-link " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a id="linknav" class="nav-link active" aria-current="page" href="#enlace1">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a id="linknav" class="nav-link" href="#enlace2">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a id="linknav" class="nav-link" href="#enlace3">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav> -->
   </header>
-</nav>
-<div class="lineaa"></div>
-</header>
+  <div class="lineaa"></div>
 
 
-    <main >
-        <div class="bg-dark text-secondary px-4 py-5 text-center sobre-mi  ">
-            <div class="contenedor-perfil ">
-                <img src="perfil1.jfif" id="imgpefil">
-                <div id="enlace1"></div>
 
-              <h1 class="display-5 fw-bold text-white titulo" id="sobremi">Hola! soy Juan Jose La Terra</h1>
-              <div class="col-lg-6 mx-auto">
-                <p class=" mb-4 textoSobreMi">Soy un apasionado desarrollador con experiencia en frontend y backend.
-                    Disfruto creando soluciones innovadoras y proyectos desde cero. Siempre estoy en busca de nuevos desafíos y oportunidades para aprender. Estoy comprometido en ofrecer soluciones completas y atractivas que combinen tecnología y diseño para satisfacer las necesidades de los usuarios. ¡Espero con entusiasmo las oportunidades que el futuro traerá a mi camino!
-                    </p>
-              </div>
+  <main>
+    <div class="bg-dark text-secondary px-5 py-5 text-center sobre-mi centered">
+
+      <div class="contenedor-perfil ">
+        <img src="perfil1.jfif" id="imgpefil">
+        <div id="enlace1"></div>
+
+        <h1 class="display-5 fw-bold text-white titulo" id="sobremi">Hola! soy Juan Jose La Terra</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class=" mb-4 textoSobreMi">Soy un apasionado desarrollador con experiencia en frontend y backend.
+            Disfruto creando soluciones innovadoras y proyectos desde cero. Siempre estoy en busca de nuevos desafíos y
+            oportunidades para aprender. Estoy comprometido en ofrecer soluciones completas y atractivas que combinen
+            tecnología y diseño para satisfacer las necesidades de los usuarios. ¡Espero con entusiasmo las
+            oportunidades que el futuro traerá a mi camino!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="b-example-divider "></div> -->
+
+    <!-- Aca comienza  otro hero -->
+    <!-- Example Code -->
+
+    <div class="text-secondary px-5 py-5 ">
+      <div class="row text-center ">
+        <div class="col-sm-5 ">
+          <h2 class=" titulo-habilidades  ">Un vistazo a las tecnologías que utilizo</h2>
+          <br>
+          <p>Mi conjunto de competencias tecnológicas: Abordando desde los Fundamentos Esenciales como HTML, CSS y
+            JavaScript, hasta la Creación de Experiencias con Bootstrap y Node.js. Gestionando Datos Eficientemente con
+            MySQL y Adoptando la Colaboración y el Control de Versiones a través de GitHub...</p>
+          <br>
+        </div>
+        <div class="col-sm-7 ">
+          <div class="row row-cols-3 text-center ">
+            <div class="col-8 col-sm-6 mx-auto ">
+              <img src="img/html.png" alt="Example image" width="100" loading="lazy">
+              <img src="img/css.png" alt="Example image" width="100" loading="lazy">
+              <img src="img/js.png" alt="Example image" width="100" loading="lazy">
+              <img src="img/bost.png" alt="Example image" width="100" loading="lazy">
+
+              <img src="img/nodejs.png" alt="Example image" width="100" loading="lazy">
+              <img src="img/msql.png" alt="Example image" width="100" loading="lazy">
+              <img src="img/github.png" alt="Example image" width="100">
             </div>
-          </div>
-          <div class="b-example-divider "></div>
 
-          <!-- Aca comienza  otro hero -->
-        <section class="seccion-habilidades">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Example Code -->
+    <!-- <section class="seccion-habilidades">
           <div class=" text-center ">
             <h2 class=" titulo-habilidades ">Un vistazo a las tecnologías que utilizo</h2>
             <div class="col-lg-6 col-md-8  mx-auto">
@@ -67,122 +157,140 @@
                     <img src="img/github.png"  alt="Example image" width="100">
                 </div>
           </div>
-        </section>
-          <!-- aca empieza mis proyectos -->
-          <div class="b-example-divider "></div>
-          <div id="enlace2"></div>
-          <section class="py-5 text-center  proyectos">
-            <div >
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h2 class="tituloProyectos" >Proyectos mas recientes</h2>
-                <p >Explora nuestra selección más reciente de proyectos excepcionales. Desde aplicaciones web hasta experiencias móviles, estos ejemplos reflejan nuestro compromiso continuo con la excelencia y la innovación en cada paso del camino..</p>
-               
-              </div>
+        </section> -->
+    <!-- aca empieza mis proyectos -->
+    <!-- <div class="b-example-divider "></div> -->
+    <div id="enlace2"></div>
+    <section class="py-5 text-center  proyectos">
+      <div>
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h2 class="tituloProyectos">Proyectos mas recientes</h2>
+          <p>Explora nuestra selección más reciente de proyectos excepcionales. Desde aplicaciones web hasta
+            experiencias móviles, estos ejemplos reflejan nuestro compromiso continuo con la excelencia y la innovación
+            en cada paso del camino..</p>
 
-             <div class="contenedor-card d-flex">
-              <div class="card" >
-                <img src="img/pikachu.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Proyecto N° 1</h5>
-                  <p class="card-text">PokeApi. Este es un proyecto en el que podemos ver todos los pokemons ver su imagen y detalle.</p>
-                  <a id="btn-card" href="https://glistening-horse-b219d1.netlify.app/" target="_blank" class="btn btn-primary">Dar un vistazo</a>
-                </div>
-              </div>
+        </div>
 
-              <div class="card" >
-                <img src="img/imgproyecto.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Proyecto N° 2</h5>
-                  <p class="card-text">Rick and Morty App. 
-                    Esta app te permite conocer con detalle a todos los personajes de la serie .</p>
-                  <a id="btn-card" href="https://animated-travesseiro-528f40.netlify.app/" target="_blank" class="btn btn-primary">Dar un vistazo</a>
-                </div>
-              </div>
-
-              <div class="card" >
-                <img src="img/gym2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Proyecto N° 3</h5>
-                  <p class="card-text">PowerGYM.
-                    Se trata de una landingPage para un gimnasio, donde vemos su servicios precios etc..</p>
-                  <a id="btn-card" href="" target="_blank" class="btn btn-primary">Dar un vistazo</a>
-                </div>
-              </div>
-             </div>
-
+        <div class="contenedor-card d-flex">
+          <div class="card">
+            <img src="img/colors.png" class="card-img-top" alt="..."  >
+            <div class="card-body">
+              <h5 class="card-title">Color Game</h5>
+              <h6>Proyecto n°1</h6>
+              <p class="card-text">Es un juego donde tendras que adivinar un color al azar, resultara my entretenido...
+              </p>
+              <a id="btn-card" href="https://color-game-pledu.netlify.app/" target="_blank" class="btn btn-dark">Dar un
+                vistazo</a>
             </div>
-        
-            
-          </section>
-          <div class="b-example-divider "></div>
-
-          <section class="contact">
-            <div class="contacto" id="enlace3">
-            <h2>Deja tu mensaje</h2>
-            <form target="_blank" action="https://formsubmit.co/jjmdt36@gmail.com" method="POST" id="myForm">
-              
-            <div class="mb-3">
-              <select name="proyecto" class="form-select" aria-label="Default select example">
-                <option selected>Proyecto de interes</option>
-                <option value="1">Proyecto 1 </option>
-                <option value="2">Proyecto 2 </option>
-                <option value="3">Proyecto 3 </option>
-                <option value="3">Otro </option>
-              </select>
-              <br>
-              <input type="nombre" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-              <br>
-              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1"
-             class="form-label" ></label>
-              <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribir mensaje"></textarea>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-              <button class="btn btn-dark me-md-2" type="submit">Enviar</button>
-            </div>
-            </form>
           </div>
-          </section>
-        
-        
-    </main>
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="bootstrap" viewBox="0 0 118 94">
-        <title>Bootstrap</title>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
-      </symbol>
+          <div class="card">
+            <img src="img/images.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Weather Channel </h5>
+              <h6>Proyecto n°2</h6>
+              <p class="card-text">Es una app donde podras consultar el clima en la ciudad que quieras..</p>
+              <a id="btn-card" href="https://appclimaapp.netlify.app/" target="_blank" class="btn btn-dark">Dar un
+                vistazo</a>
+            </div>
+          </div>
 
-      <symbol id="linkedin" viewBox="0 0 16 16">
-        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-      </symbol>
 
-      <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp" viewBox="0 0 16 16">
-        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-      </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" id="gmail"  viewBox="0 0 16 16">
-        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-      </svg>
+
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- <div class="b-example-divider "></div> -->
+
+    <section class="contact">
+      <div class="contacto" id="enlace3">
+        <h2>Deja tu mensaje</h2>
+        <form target="_blank" action="https://formsubmit.co/jjmdt36@gmail.com" method="POST" id="myForm">
+
+          <div class="mb-3">
+            <select name="proyecto" class="form-select" aria-label="Default select example">
+              <option selected>Proyecto de interes</option>
+              <option value="1">Proyecto 1 </option>
+              <option value="2">Proyecto 2 </option>
+              <option value="3">Proyecto 3 </option>
+              <option value="3">Otro </option>
+            </select>
+            <br>
+            <input type="nombre" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <br>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"
+              placeholder="Escribir mensaje"></textarea>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-dark me-md-2" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+      <title>Bootstrap</title>
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+      </path>
+    </symbol>
+
+    <symbol id="linkedin" viewBox="0 0 16 16">
+      <path
+        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+    </symbol>
+
+    <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp" viewBox="0 0 16 16">
+      <path
+        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
     </svg>
-    
-    <div class="b-example-divider"></div>
+    <svg xmlns="http://www.w3.org/2000/svg" id="gmail" viewBox="0 0 16 16">
+      <path
+        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+    </svg>
+  </svg>
 
-<div class="container-footer ">
-  <footer class="c-footer ">
-    <p class="footer-text text-center texto-footer frase-footer"> Aprendo y creo todo los dias. <br> Creemos un proyecto juntos</p>
+  <div class="b-example-divider"></div>
 
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="ms-3"><a class="icono" target="_blank" href="mailto:juanjo.mdt@gmail.com?subject=Consulta"><svg class="bi" width="30" height="30"><use xlink:href="#gmail"/></svg></a></li>
-      <li class="ms-3"><a class="icono" target="_blank" href="https://api.whatsapp.com/send?phone=5491163300757"><svg class="bi" width="30" height="30"><use xlink:href="#whatsapp"/></svg></a></li>
-      <li class="ms-3"><a class="icono" target="_blank" href="https://www.linkedin.com/in/juanjolt/"><svg class="bi" width="30" height="30" ><use xlink:href="#linkedin"/></svg> </a></li>
+  <div class="container-footer ">
+    <footer class="c-footer ">
+      <p class="footer-text text-center texto-footer frase-footer"> Aprendo y creo todo los dias. <br> Creemos un
+        proyecto juntos</p>
 
-    </ul>
-    <p class="text-center p-footer">&copy; 2023 Juan Jose La Terra</p>
-  </footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="index.js"></script>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="ms-3"><a class="icono" target="_blank" href="mailto:juanjo.mdt@gmail.com?subject=Consulta"><svg
+              class="bi" width="30" height="30">
+              <use xlink:href="#gmail" />
+            </svg></a></li>
+        <li class="ms-3"><a class="icono" target="_blank" href="https://api.whatsapp.com/send?phone=5491163300757"><svg
+              class="bi" width="30" height="30">
+              <use xlink:href="#whatsapp" />
+            </svg></a></li>
+        <li class="ms-3"><a class="icono" target="_blank" href="https://www.linkedin.com/in/juanjolt/"><svg class="bi"
+              width="30" height="30">
+              <use xlink:href="#linkedin" />
+            </svg> </a></li>
+
+      </ul>
+      <p class="text-center p-footer">&copy; 2023 Juan Jose La Terra</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 
 </body>
+
 </html>

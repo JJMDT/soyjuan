@@ -46,10 +46,10 @@ function cargarAnimaciones() {
 
       ScrollReveal({ duration: 1000 })
 
-      ScrollReveal().reveal('.nav-links', { delay: 2000 });
-      ScrollReveal().reveal('.subtitulo', { delay: 1000 });
-      ScrollReveal().reveal('.logo', { delay: 2000 });
-      ScrollReveal().reveal('.texto-footer', { delay: 1500 });
+      ScrollReveal().reveal('.navbar-nav', { delay: 1000 });
+      ScrollReveal().reveal('#subtitulo', { delay: 2000 });
+      ScrollReveal().reveal('.logo', { delay: 1000 });
+      ScrollReveal().reveal('.texto-footer', { delay: 500 });
 
     }
 

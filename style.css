@@ -21,6 +21,7 @@
     user-select: none;
   }
 
+
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
@@ -80,13 +81,32 @@
     --bs-btn-active-color: var(--bs-btn-hover-color);
     --bs-btn-active-bg: #5a23c8;
     --bs-btn-active-border-color: #5a23c8;
+    --data-bs-theme:rgb(0, 0, 0);
   }
   .bd-mode-toggle {
     z-index: 1500;
   }
   
   @media (min-width: 992px) {
+    .navbar-collapse {
+      flex-grow: initial !important;
+    }
     .rounded-lg-3 { border-radius: .3rem; }
+  }
+  .color-link{
+    color: white;
+  }
+  .fondonav{
+    /* background-color: #212529;; */
+    background-color: white !important;
+  }
+
+  @media (max-width: 991.98px) {
+   
+    .navbar-nav.d-md-flex {
+      flex-direction: column;
+      align-items: flex-start; /* Opcional: alinea los elementos a la izquierda */
+    }
   }
 #logoInicio{
   text-decoration: none;
@@ -154,7 +174,7 @@ padding: 100px 0;
   .contenedor-perfil{
   padding-top: 150px;
 }
-  .header p{
+  #subtitulo{
   
   position: absolute;
   top: 50%;
@@ -195,6 +215,19 @@ padding: 100px 0;
 
       transform: scale(1.2);
     }
+    #linknav{
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: #ffffff; 
+      margin: 0 20px; 
+      font-size: 18px;
+   
+    }
+    .navbar-nav{
+      align-items: flex-end
+    }
+
     
 .linea{
   border: 1px solid white;
@@ -224,7 +257,8 @@ padding: 100px 0;
 }
 .card{
   margin: 5px;
-  width: 300px;
+  width: 250px;
+  height:200px;
 }
 .card-body p{
   color: black;
@@ -271,6 +305,7 @@ background-color: white;
   margin: 0 20px; 
   font-size: 18px;
 }
+
  a:after {
   content: "";
   display: block;
@@ -307,20 +342,23 @@ background-color: white;
 .tituloProyectos{
   color: white;
 }
-.contenedor-img{
-  flex-wrap: wrap;
-  height: 300px;
+.card > img {
+    flex-wrap: wrap;
+    width: auto;
+  
 }
 #btn-card:hover:after {
   width: 0%;
   background: #faf6f4;
-  }
-  #btn-card:hover{
-    color: #385fe0;
-
-    background: #faf6f4;
+}
+#btn-card:hover{
+  color: #020202;
+  font-weight: bold;
+  background: #faf6f4;
 
 }
+
+
 
 @media (max-width: 950px) { 
   header p{
