@@ -71,3 +71,9 @@ function cargarAnimaciones() {
     }
 
   
+    $(document).ready(function () {
+      $('[data-toggle="collapse"]').click(function () {
+        $('.navbar-collapse').collapse('toggle');
+      });
+    });
+    

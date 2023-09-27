@@ -100,9 +100,9 @@
     /* background-color: #212529;; */
     background-color: white !important;
   }
-
+ 
   @media (max-width: 991.98px) {
-   
+    
     .navbar-nav.d-md-flex {
       flex-direction: column;
       align-items: flex-start; /* Opcional: alinea los elementos a la izquierda */
@@ -359,8 +359,11 @@ background-color: white;
 }
 
 
-
-@media (max-width: 950px) { 
+#menunav{
+visibility: visible; 
+opacity: 1!important;
+}
+@media (max-width: 990px) { 
   header p{
     display: none;
   }
