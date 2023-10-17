@@ -77,3 +77,15 @@ function cargarAnimaciones() {
       });
     });
     
+    function validar(){
+
+      var nombre = document.getElementById("id_nombre").value;
+
+      if(nombre ==""){
+        alert("Por favor, complete todos los campos.");
+       
+        return false; // Evitar que el formulario se envíe
+    }
+
+    return true;
+    }

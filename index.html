@@ -43,7 +43,8 @@
           <br>Full Stack <br>
         </p>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex justify-content-between" id="menunav" style="visibility: visible; opacity: 1;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex justify-content-between" id="menunav"
+            style="visibility: visible; opacity: 1;">
             <li class="nav-item">
               <a id="linknav" class="nav-link " aria-current="page" href="#enlace1">Sobre mi</a>
             </li>
@@ -173,7 +174,7 @@
 
         <div class="contenedor-card d-flex">
           <div class="card">
-            <img src="img/colors.png" class="card-img-top" alt="..."  >
+            <img src="img/colors.png" width="248" height="200" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Color Game</h5>
               <h6>Proyecto n°1</h6>
@@ -184,12 +185,22 @@
             </div>
           </div>
           <div class="card">
-            <img src="img/images.jfif" class="card-img-top" alt="...">
+            <img src="img/images.jfif" width="248" height="200" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Weather Channel </h5>
               <h6>Proyecto n°2</h6>
               <p class="card-text">queres saber como va a estar el clima en la ciudad? miralo...</p>
               <a id="btn-card" href="https://appclimaapp.netlify.app/" target="_blank" class="btn btn-dark">Dar un
+                vistazo</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/funkos-banner.webp" width="248" height="200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tienda Funko </h5>
+              <h6>Proyecto n°3</h6>
+              <p class="card-text">Es una tienda de productos funko <br> (en proceso)</p>
+              <a id="btn-card" href="https://tiendafunko.netlify.app/" target="_blank" class="btn btn-dark">Dar un
                 vistazo</a>
             </div>
           </div>
@@ -208,25 +219,26 @@
     <section class="contact">
       <div class="contacto" id="enlace3">
         <h2>Deja tu mensaje</h2>
-        <form target="_blank" action="https://formsubmit.co/jjmdt36@gmail.com" method="POST" id="myForm">
+        <form target="_blank" action="https://formsubmit.co/jjmdt36@gmail.com" method="POST" id="myForm"
+          onsubmit="return validar()">
 
           <div class="mb-3">
-            <select name="proyecto" class="form-select" aria-label="Default select example">
+            <select id="id_proyecto" name="proyecto" class="form-select" aria-label="Default select example">
               <option selected>Proyecto de interes</option>
               <option value="1">Proyecto 1 </option>
               <option value="2">Proyecto 2 </option>
+              <option value="3">Proyecto 3 </option>
               <!-- <option value="3">Proyecto 3 </option> -->
-              <option value="3">Otro </option>
+              <option value="4">Otro </option>
             </select>
             <br>
-            <input type="nombre" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <input type="nombre" name="nombre" class="form-control" id="id_nombre" placeholder="Nombre">
             <br>
-            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
-              placeholder="name@example.com">
+            <input type="email" name="email" class="form-control" id="id_email" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"></label>
-            <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"
+            <textarea name="textarea" class="form-control" id="id_mensaje" rows="3"
               placeholder="Escribir mensaje"></textarea>
           </div>
           <div class="d-grid gap-2 d-md-flex justify-content-md-center">
